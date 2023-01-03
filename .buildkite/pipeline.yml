@@ -1,0 +1,3 @@
+steps:
+  - label: "Pipeline upload"
+    command: buildkite-agent pipeline upload
