@@ -1,3 +1,3 @@
 steps:
-  - label: "Pipeline upload"
-    command: buildkite-agent pipeline upload
+  - label: ":buildkite: example step"
+    command: echo 1st step 
