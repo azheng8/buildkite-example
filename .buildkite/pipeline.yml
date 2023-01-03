@@ -1,3 +1,4 @@
 steps:
   - label: ":buildkite: example step"
     command: echo 1st step 
+    command: pwd
