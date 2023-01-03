@@ -1,4 +1,9 @@
 steps:
   - label: ":buildkite: example step"
     command: echo 1st step 
+
+  - label: ":buildkite: pwd"
     command: pwd
+
+  - label: ":buildkite: echo user"
+    command: echo $USER
