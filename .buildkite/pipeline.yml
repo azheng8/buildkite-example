@@ -7,3 +7,6 @@ steps:
 
   - label: ":buildkite: echo user"
     command: echo $USER
+  
+  - label: ":docker: build image"
+    command: docker build -t buildkite-example .
