@@ -13,6 +13,6 @@ steps:
     key: build
 
   - label: ":docker: run image"
-    command: docker run buildkite-example
+    command: docker run -d -p 8080:8080 buildkite-example
     key: run
     depends_on: build
