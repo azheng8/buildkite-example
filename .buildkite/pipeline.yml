@@ -10,3 +10,9 @@ steps:
   
   - label: ":docker: build image"
     command: docker build -t buildkite-example .
+    key: build
+
+  - label: ":docker: run image"
+    command: docker run buildkite-example
+    key: run
+    depends_on: build
